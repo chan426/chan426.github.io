@@ -1,0 +1,251 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+
+body{
+    color:#24292E;
+}
+
+a{
+    text-decoration: none;
+    color:#24292E;
+}
+
+.wrapper{
+    max-width: 960px;
+    padding: 0 4%;
+    margin: 0 auto 130px auto;
+}
+
+/*------------------
+ヘッダー
+--------------------*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 270px;
+}
+
+.site-title{
+    padding: 10px 0;
+}
+
+.site-title img{
+    height: 27px;
+}
+
+
+header ul{
+    display: flex;
+    padding: 10px 0;
+}
+
+header li{
+    margin-left: 30px;
+    font-size: 0.9rem;    
+}
+
+header img{
+    height: 20px;
+}
+
+header a:hover{
+    color: #979696;
+}
+/*------------------
+MainVisual
+--------------------*/
+.mainvisual{
+    margin-bottom: 80px;
+}
+.mainvisual img{
+    max-width: 1920px;
+    height: 420px;
+    width: 100%;
+    object-fit: cover;
+}
+/*------------------
+About
+--------------------*/
+h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+/*------------------
+Works
+--------------------*/
+#works ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+
+}
+
+#works li{
+    width: 30%;
+}
+
+/*------------------
+News
+--------------------*/
+#news dl{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #C8C8C8;
+}
+#news dt{
+    width: 15%;
+    padding: 20px;
+    border-top: 1px solid #C8C8C8;
+}
+#news dd{
+    width: 85%;
+    padding: 20px;
+    border-top: 1px solid #C8C8C8;
+}
+
+
+/*------------------
+Contact
+--------------------*/
+
+#contact dl{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contact dt{
+    width: 20%;
+    padding-bottom: 20px;    
+}
+
+#contact dd{
+    width: 80%;
+    padding-bottom: 20px;    
+}
+
+#contact input,textarea{
+    width: 100%;
+    border: 1px solid #C8C8C8
+    }
+#contact textarea{
+    height: 160px;
+    margin-bottom: 30px;
+}
+
+#contact .submit{
+    background-color: #24292E;
+    color: #FFFFFF;
+    width: 200px;
+    height: 53px;
+}
+
+#contact .submit:hover{
+    background-color: #FFFFFF;
+    color: #24292E;
+    border-color:#24292E;
+}
+
+/*------------------
+Footer
+--------------------*/
+footer{
+    background-color:#24292E ;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+    color: #FFFFFF;
+
+
+    
+}
+
+/*携帯用*/
+
+@media(max-width:600px){
+/*------------------
+ヘッダー
+--------------------*/
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100px ;
+}
+
+header li:first-child{
+    margin-left:0 ;
+}
+
+
+/*------------------
+About
+--------------------*/
+p{
+    margin-bottom: 50px;
+}
+
+.myname{
+    margin-bottom:30px;
+}
+/*------------------
+Works
+--------------------*/
+#works ul{
+    flex-direction: column;
+}
+
+#works li{
+    width: 100%;
+}
+/*------------------
+News
+--------------------*/
+#news dl{
+    flex-direction: column;
+    border-bottom: 0px solid #C8C8C8;
+    border-top: 1px solid #C8C8C8;
+}
+
+#news dt{
+    padding-top: 10px;
+    padding-bottom: 0;
+    border-top: none
+}
+#news dd{
+    padding-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #C8C8C8;
+    border-top:none;
+    width: 100%;
+}
+
+/*------------------
+Contact
+--------------------*/
+#contact dl{
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact dt{
+    width: 100%;
+    padding-bottom: 0px;    
+}
+
+#contact dd{
+    width: 100%;
+    padding-bottom: 20px;    
+}
+
+#contact input{
+    height: 40px;
+    }
+
+}
