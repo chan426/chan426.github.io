@@ -1,0 +1,385 @@
+html{
+  font-family: "Noto Serif JP", serif;
+  font-size: 100%; 
+  
+}
+
+body{
+    background-color: #E6E2D7;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+/*-------------
+ヘッダー
+---------------*/
+header{
+    width: 100%;
+    height: 100%;
+    writing-mode: vertical-rl;
+    background-image: url(../img/mainvisual-pc.jpg);
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+}
+
+.site-title{
+    margin: 60px;
+    width: 40px;
+}
+
+header ul{
+    width: 120px;
+    margin-top: 60px;
+}
+
+header li{
+    color: white;
+    margin-left: 25px;
+
+}
+.online-store{
+    background-color:#FFFFFF33;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    padding: 8px;
+}
+
+.online-store a{
+    display: block;
+    border: 1px solid #cccccc;
+    padding:30px 15px;
+}
+
+/*---------
+私が書いたやつ（上のと何が違う？）
+header div{
+    width: 70px;
+    height: 255px;
+    text-align: center;
+    color: white;
+    background-color: #FFFFFF33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+}
+---------*/
+.online-store a:hover{
+    opacity: 0.7;
+}
+/*-------------
+News
+---------------*/
+#news{
+/*ここにwriting-mode入れるとdisplay=flexで
+　row-reverceにしても右揃えにならなかったのなんで？*/
+    height: 370px;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+#news .en {
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
+#news .ja {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+#news h2{
+    writing-mode: vertical-rl;
+}
+
+#news dl{
+    margin-right: 100px;
+    padding-top: 70px;
+    writing-mode: vertical-rl;
+    
+}
+#news dt{
+    font-size: 0.8rem;
+    border-right:1px solid #000000 ;
+    padding-right:30px;
+    padding-top: 20px;
+}
+#news dd{
+    padding-left: 30px;
+    text-align: center;
+}
+
+#news dd:last-child{
+    border-left: 1px solid #000;
+}
+/*-------------
+商品１
+---------------*/
+#product1{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 200px;
+}
+
+
+#product1 h2{
+    writing-mode: vertical-rl;
+}
+
+#product1 .en {
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
+#product1 .ja {
+    font-size: 2rem;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+}
+
+#product1 .img{
+   width: 60%;
+   margin-top: 100px;
+   margin-right: 20px;
+   position: relative;
+}
+
+#product1 p{
+    width: 60%;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #F9E90699;
+    position: absolute;
+    left:-20px;
+    bottom: -20px;    
+}
+
+
+/*-------------
+商品２
+---------------*/
+#product2{
+    display: flex;
+    margin-bottom: 180px;
+}
+
+#product2 h2{
+    writing-mode: vertical-rl;
+}
+
+#product2 .en {
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
+#product2 .ja {
+    font-size: 2rem;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+}
+
+#product2 .img{
+   width: 60%;
+   margin-top: 100px;
+   margin-left: 20px;
+   position: relative;
+}
+
+#product2 p{
+    width: 60%;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #952A2699;
+    position: absolute;
+    right:-20px;
+    bottom: -20px;    
+}
+
+
+/*-------------
+Map
+---------------*/
+#map iframe{
+    width: 100%;
+    vertical-align: bottom;
+}
+/*-------------
+フッター
+---------------*/
+footer{
+    background-color: black;
+    color:#fff;
+    padding-top: 80px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.footer .left{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.footer .site-title{
+    margin-top: 0;
+}
+.footer ul{
+    width:120px;
+    writing-mode: vertical-rl;
+}
+
+.footer li{
+    margin-left: 25px;
+    font-size: 1rem;
+}
+
+.footer .address{
+    margin-left: 60px;
+    font-size:0.9rem;
+    writing-mode: vertical-rl;
+    line-height: 1.75;
+}
+
+.footer .right{
+    margin-left: 30px;
+    writing-mode: vertical-rl;
+}
+
+.copy{
+    height: 60px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+
+/*スマホ用*/
+@media(max-width:768px){
+
+
+/*---------------
+ヘッダー
+-----------------*/
+header{
+    background-image: url(../img/mainvisual-sp.jpg);
+}
+/*-----------
+News
+-------------*/
+#news{
+    margin: 80px 0;
+}
+#news dl{
+    margin-right: 30px;
+    padding-top: 30px;
+}
+
+#news dl :nth-of-type(n + 4){
+    display: none;
+}
+
+#news dt{
+    border-right: 0px solid #000;
+    padding-right:10px ;
+}
+#news dt:first-child{
+    border-right: 1px solid #000;
+}
+
+#news dd{
+    border-left: 1px solid #000;
+    padding-left: 10px;
+    text-align: start;
+    padding-top: 20px;
+}
+/*-------------
+商品１
+---------------*/
+#product1{
+    margin-bottom: 80px;
+}
+
+#product1 .en {
+    display: none;
+}
+
+#product1 .img{
+   width: 100%;
+   margin-top: 100px;
+   margin-right: 10px;
+}
+
+#product1 p{
+    width: 65%;
+    padding: 30px 0;
+    font-size: 0.875rem;
+}
+
+/*-------------
+商品2
+---------------*/
+#product2{
+    margin-bottom: 80px;
+}
+
+#product2 .en {
+    display: none;
+}
+
+#product2 .img{
+   width: 100%;
+   margin-top: 100px;
+   margin-left: 10px;
+}
+
+#product2 p{
+    width: 65%;
+    padding: 30px 0;
+    font-size: 0.875rem;
+}
+
+/*-------------
+フッター
+---------------*/
+.site-title{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.footer li{
+    margin-left:10px;
+    font-size: 1rem;
+}
+
+.footer .address{
+    margin-left: 20px;
+    font-size:0.9rem;
+    writing-mode: vertical-rl;
+    line-height: 1.75;
+}
+.copy{
+    padding-top: 10px;
+}
+}
