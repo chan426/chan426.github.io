@@ -64,23 +64,6 @@ header li{
     padding:30px 15px;
 }
 
-/*---------
-私が書いたやつ（上のと何が違う？）
-header div{
-    width: 70px;
-    height: 255px;
-    text-align: center;
-    color: white;
-    background-color: #FFFFFF33;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    position: absolute;
-    bottom: 30px;
-    left: 40px;
-}
----------*/
 .online-store a:hover{
     opacity: 0.7;
 }
