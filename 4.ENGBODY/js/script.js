@@ -16,8 +16,6 @@ $(window).scroll(function(){
         $(".page-top").removeClass("pagetop--active");
     }
 });
-
-
   /*
   背景色が伸びてテキストを表示
   */
@@ -122,4 +120,3 @@ $(".page-top").on("click", function(){
 });
    
 });
-
