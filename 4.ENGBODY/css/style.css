@@ -838,6 +838,12 @@ Studio
     max-width: 1300px;
 }
 
+.swiper-button-prev,
+.swiper-button-next{
+    --swiper-navigation-size:100px;
+}
+    
+
 /*
 .swiper-slide{
     width: 100%;
