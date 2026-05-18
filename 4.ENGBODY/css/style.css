@@ -840,7 +840,7 @@ Studio
 
 .swiper-button-prev,
 .swiper-button-next{
-    --swiper-navigation-size:100px;
+    height:calc(var(--swiper-navigation-size) / 15*40/44 * 27);
 }
     
 
