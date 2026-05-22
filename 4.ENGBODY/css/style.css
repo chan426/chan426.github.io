@@ -843,21 +843,9 @@ Studio
     width: calc(var(--swiper-navigation-size) / 15 * 100 / 44 * 27);
     height: calc(var(--swiper-navigation-size) / 15 * 100/ 44 * 27);
 }
-
-/*
-.swiper-slide{
-    width: 100%;
-    height: 100%;
-    padding: 20px 30px 40px 30px;    
-}
-
-.swiper-button-prev,
-.swiper-button-next{
-    background-color: #FFF;
-    border-radius: 50%;
-    --swiper-navigation-color:#EB51C2;
-    --swiper-navigation-size:15px;
-    padding: 20px;
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  opacity: 1;
 }
 
 /*-------------
