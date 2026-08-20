@@ -7,7 +7,7 @@ html{
 
 body{
     background-color:var(--color-primary);
-
+    font-size:var(--font-size-sm);
 }
 
 a{
@@ -38,9 +38,7 @@ h3{
     text-decoration: underline;
 }
 
-p{
-    font-size:var(--font-size-sm);
- }
+
 span{
     font-size: var(--font-size-head);
 }
