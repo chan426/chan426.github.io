@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | R.Maeda</title>
+    <meta name="description" content="R.Maedaのポートフォリオサイト　お問い合わせはこちら">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+   
+</head>
+</head>
+
+<body>
+         <header class="c-hamburger-menu">
+        <input type="checkbox" name="hamburger" id="hamburger" class="c-hamburger-menu__input" />    
+            <ul class="c-hamburger-menu__list">
+                <li class="c-header__list-item"><a href="index.html#works">Works</a></li>
+                <li class="c-header__list-item"><a href="index.html#service">Service</a></li>
+                <li class="c-header__list-item"><a href="index.html#about">About</a></li>
+                <li class="c-header__list-item"><a href="#contact">Contact</a></li>
+            </ul>
+
+    <label for="hamburger" class="c-hamburger-menu__button">
+    <span class="c-hamburger-menu__button-mark"></span>
+    <span class="c-hamburger-menu__button-mark"></span>
+    <span class="c-hamburger-menu__button-mark"></span>
+  </label>
+    </header>
+    <main>
+        <section id="contact" class="wrapper">
+            <h2><span>▶</span> Contact</h2>
+
+            <p class="comment">以下のフォームより、<br class="detail-2">
+                お気軽にお問い合わせください</p>
+        
+        
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script><!-- 専用スクリプトの読み込み必要 -->
+         <form action="https://ssgform.com/s/WzijejUQQGke" method="post">
+
+            <p class="item"> お名前</p>
+            <input type="text" name="name" class="name" required="required">
+
+            <p class="item">メールアドレス</p>
+            <input type="text" name="email" required="required">
+
+            <p class="item">お問い合わせ内容</p>
+            <textarea name="message" cols="50" rows="10"  required="required"></textarea>
+  <div class="g-recaptcha" data-sitekey="reCAPTCHA(v2)用サイトキーがここに"></div><!-- 専用タグの設置必要 -->    
+        <br>
+    </form>
+ 
+    <pre id="result"></pre>
+            <p>
+                 <input class="submit" type="submit" value="送信">
+            </p>
+
+
+        </section>
+
+        
+    </main>
+    <footer>
+        <p>Copyright @2026</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
