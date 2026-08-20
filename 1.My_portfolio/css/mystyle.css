@@ -2,12 +2,11 @@
 
 html{
     font-family: var(--jp-font);
-    font-size: var(--font-size-body);
+    font-size: var(--font-size-sm);
 }
 
 body{
     background-color:var(--color-primary);
-    font-size:var(--font-size-sm);
 }
 
 a{
