@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+:root{
+    --color-primary:#E8DEE1;
+    --color-secondary:#A9A5A6;
+    --color-inner:#DDD0D3;
+    --en-font:"Averia Serif Libre", serif;
+    --jp-font:"Noto Sans JP", sans-serif;
+
+
+    --font-size-h1: 40px; /* h1の見出しに適用 */
+    --font-size-h2: 32px; /* h2の見出しに適用 */
+    --font-size-head: 24px;
+    --font-size-body: 20px; /* 本文のテキストに適用 */
+    --font-size-sm: 16px;
+    --font-size-xs:12px;
+
+    --space-xs: 8px;     /* 最小の余白（アイコン間などに使用） */
+    --space-sm: 16px;    /* 小さな余白（リスト項目間など） */
+    --space-md: 24px;    /* 中間の余白（カード内部paddingなど） */
+    --space-lg: 32px;    /* 大きな余白（セクション間など） */
+    --space-xl: 40px;    /* 特大の余白（ヒーローヘッダーなど） */
+    
+}
