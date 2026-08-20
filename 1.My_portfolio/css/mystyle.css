@@ -2,7 +2,7 @@
 
 html{
     font-family: var(--jp-font);
-    font-size: var(--font-size-body);
+    font-size: var(--font-size-sm);
 }
 
 body{
