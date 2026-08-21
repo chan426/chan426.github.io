@@ -255,7 +255,7 @@ footer{
 /*タブレット用*/
 @media (max-width:1290px) {
 header, footer{
-    background-size: contain;
+    background-size: cover;
     }
 }
 @media(max-width:1025px){
